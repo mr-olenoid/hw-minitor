@@ -1,0 +1,18 @@
+config:
+  web_port: 8000
+  servers:
+  - name: dell
+    ips: []
+    id: 'System.Embedded.1'
+    user_id: ''
+    user_pass: ''
+  - name: hp
+    ips: []
+    id: '1'
+    user_id: ''
+    user_pass: ''
+  - name: huawei
+    ips: []
+    id: '1'
+    user_id: ''
+    user_pass: ''
