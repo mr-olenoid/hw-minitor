@@ -44,7 +44,7 @@ def conf_loader_sql(ip, user, password, database):
     return result
 
 def msg_make(serverName, message, origin, severity):
-    return json.dumps({'name': serverName, 'message': message, 'origin': origin, 'severity': severity})
+    return json.dumps({'name': serverName, 'message': message, 'origin': origin, 'severity': severity, 'format': 'Markdown'})
 
 
 #common stuff
